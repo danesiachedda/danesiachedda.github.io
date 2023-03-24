@@ -1,0 +1,42 @@
+/* SKELETON STYLES (CONSISTEN ACROSS ALL PAGES) */
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+#page-container {
+    margin: 15vw;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: #8fbc8f;
+    color: white;
+}
+
+#nav-links-list {
+    margin-left: auto;
+}
+
+#nav-links-list li {
+    display: inline-block;
+    margin: 0 2em 0 0;
+    font-weight: bold;
+}
+
+#footer {
+    position: relative;
+    top: 100vh;
+    padding: 2em;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #8fbc8f;
+    color: #fff;
+}
