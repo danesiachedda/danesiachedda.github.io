@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="contact-page" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <body>
     <nav>
         <div id="nav-bar">
-            <a href="index.html"><img src="" alt="logo-goes-here"></a>
+            <a href="index.html"><img id="nav-logo" src="images/icon-nav-danesia.png" alt="logo-goes-here"></a>
             <ul id="nav-links-list">
                 <li><a class="nav-links" href="who-i-am.html">About</a></li>
                 <li><a class="nav-links" href="what-i-do.html">Projects</a></li>
@@ -20,20 +20,65 @@
     </nav>
 
     <main>
-        <div id="page-container">
-            <div class="content-window">
-                <section>
-                    <h3>Contact Me</h3>
-                    <hr>
-                    <p><i>Coming Soon!</i></p>
-                </section>
-            </div>
+        <div class="mini-browser"> <!-- Henceforth, "mb" refers to "mini-browser"-->
+            <section>
+                <!-- TODO: ADD ACCESSIBILITY TO ENSURE THAT THE TITLE BAR DECO IS NOT READ BY SCREENREADERS -->
+                <h3 class="mb-title-bar">Contact Me<span class="mb-title-bar-deco">o o o</span></h3>
+                <div class="mb-content-container">
+                    <img id="contact-page-photo" src="images/danesiachedda2022.jpg" alt="Photo of Danesia">
+                            
+                    <div id="contact-info">
+                        <section id="contact-social-media">
+                            <h4>Find me online!</h4>
+                            <p><a href="https://www.linkedin.com/in/danesia-chedda-575209223/"><img class="social-icons" src="images/icon-linkedin.svg" alt="LinkedIn Icon"> LinkedIn</a></p>
+
+                            <p><a href="https://www.instagram.com/danesiachedda"><img class="social-icons" src="images/icon-instagram.svg" alt="Instagram Icon"> Instagram</a></p>
+
+                            <p><a href="github.com/danesiachedda"><img class="social-icons" src="images/icon-github.svg" alt="GitHub Icon"> GitHub</a></p>
+
+                            <!-- SOCIAL MEDIA BUTTONS FOR SMALLER SCREENS -->
+                            <a href="https://www.linkedin.com/in/danesia-chedda-575209223/">
+                                <span class="social-link-buttons">
+                                    <img class="social-icons" src="images/icon-linkedin.svg">
+                                    LinkedIn
+                                </span>
+                            </a>
+
+                            <a href="https://www.instagram.com/danesiachedda">
+                                <span class="social-link-buttons">
+                                    <img class="social-icons" src="images/icon-instagram.svg">
+                                    Instagram
+                                </span> 
+                            </a>
+
+                            <a href="github.com/danesiachedda">
+                                <span class="social-link-buttons">
+                                    <img class="social-icons" src="images/icon-github.svg">
+                                    GitHub
+                                </span>
+                            </a>
+                        </section>
+                        
+                        <br>
+
+                        <h4>General Location</h4>
+                        <address>
+                            Kingston 19,<br>
+                            St. Andrew Parish,<br>
+                            Jamaica, W.I.<br>
+                        </address>
+                        <br>
+                        <h4>Email</h4>
+                        <a href="mailto:chedda.danesia@gmail.com">chedda.danesia@gmail.com</a>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 
     <footer id="footer">
-        © 2023, Danesia Chedda</br>
-        (LINKEDIN LOGO) (GITHUB LOGO)
+        <p>© 2023, Danesia Chedda</p>
+        <img class="social-icons" src="images/icon-linkedin.svg"> <img class="social-icons" src="images/icon-instagram.svg"> <img class="social-icons" src="images/icon-github.svg">
     </footer>
 
     <script src="js/main.js"></script>

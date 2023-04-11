@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="about-me-page" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <body>
     <nav>
         <div id="nav-bar">
-            <a href="index.html"><img src="" alt="logo-goes-here"></a>
+            <a id="nav-logo-home-link" href="index.html"><img id="nav-logo" src="images/icon-nav-danesia.png" alt="logo-goes-here"></a>
             <ul id="nav-links-list">
                 <li><a class="nav-links" href="who-i-am.html">About</a></li>
                 <li><a class="nav-links" href="what-i-do.html">Projects</a></li>
@@ -20,20 +20,90 @@
     </nav>
 
     <main>
-        <div id="page-container">
-            <div class="content-window">
-                <section>
-                    <h3>About Me</h3>
+        <div class="mini-browser"> <!-- Henceforth, "mb" refers to "mini-browser"-->
+            <h3 class="mb-title-bar">About Me<span class="mb-title-bar-deco">o o o</span></h3>
+            <div class="mb-content-container">
+                <div class="mb-content-info">
+                    
+                    <h2>Table of Contents</h2>
+                        <ol id="mb-about-tableofcontents">
+                            <li><a href="#mb-about-who-i-am">Who Am I?</a></li>
+                            <li><a href="#mb-about-what-i-code">What Do I Code?</a>
+                                <ul>
+                                    <li><a href="#mb-about-my-stack">My Technology Stack</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#mb-about-what-i-code">My Goals as a Developer</a></li>
+                        </ol>
+                    <br>
+                    <hr>                               <br>
+                    <h3 id="mb-about-who-i-am">Who am I?</h3>
+                    <p>Hi, I'm Danesia! I was born in 1998 in the Caribbean island of Jamaica - where I was raised for my <em>entire</em> life.</p>
+                    <p>I've loved using computers ever since I was introduced to the world of video games for PC. That was back in my elementary school days and, at the time, I never imagined that there were careers that involved extensive use of these cool machines! Unfortunately, even when I <em>did</em> learn about such careers, I was too uncertain and unconfident to pursue any of them.</p>
+                    <p>After many, many years of confusion, I finally realised that I had a love for user-friendly design and visual aesthetic (that is, the idea of making things that people find helpful and beautiful!)</p>
+                    <p>While I could apply these passions in multiple ways, I decided to fuse them with my love for computers and digital content. Now I'm learning how to be a Software Designer and Developer! :&#41</p>
+                    <br>
                     <hr>
-                    <p><i>Coming Soon!</i></p>
-                </section>
+                    <br>
+                    <h3 id="mb-about-what-i-code" class="mb-content-topic">What do I code?</h3>
+                    <p>My current focus is <b>Front-End Development</b>, but I plan to also learn a couple Back-End technologies this year (2023). I'm also interested in learning Mobile App Development in the future!</p>
+                    
+                    <h4 id="mb-about-my-stack">My Technology Stack</h4>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Tool</th>    
+                          <th>Experience</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>HTML5</td>
+                          <td>Intermediate</td>
+                        </tr>
+                        
+                        <tr>
+                          <td>CSS3</td>
+                          <td>Intermediate</td>
+                        </tr>
+                        
+                        <tr>
+                          <td>JavaScript (ES6)</td>
+                          <td>Intermediate</td>
+                        </tr>
+
+                        <tr>
+                            <td>Node.js</td>
+                            <td>Beginner</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <hr>
+                    <br>
+                    <h3 id="mb-about-developer-goals">My Goals as a Developer</h3>
+                    <p>As a Software Developer, I want to:<br>
+                        <ol>
+                            <li>Design user-friendly websites and interfaces that take both aesthetic AND accessibility into consideration</li><br>
+                            <li>Help under-developed countries (like Jamaica) to improve their digital offerings</li><br>
+                            <li>Explore and develop my creativity by trying out different designs and ideas</li><br>
+                        </ol>
+                    </p>
+                </div>
+                <div class="mb-content-sidebar">
+                    <aside>
+                        <h4>Resources</h4>
+                        <a href="docs/Resume - Danesia Chedda (Concise Public Version - April 2023).pdf" target="_blank"><img class="descriptive-icons" src="images/file-lines.svg" alt=""> Resume.pdf <i>(Last Updated: April 2023)</i></a>
+                    </aside>
+                </div>
             </div>
         </div>
     </main>
 
     <footer id="footer">
-        © 2023, Danesia Chedda</br>
-        (LINKEDIN LOGO) (GITHUB LOGO)
+        <p>© 2023, Danesia Chedda</p>
+        <img class="social-icons" src="images/icon-linkedin.svg"> <img class="social-icons" src="images/icon-instagram.svg"> <img class="social-icons" src="images/icon-github.svg">
     </footer>
 
     <script src="js/main.js"></script>
