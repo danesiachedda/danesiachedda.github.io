@@ -1,3 +1,5 @@
 # danesiachedda.github.io
 
-<p>Hi. I'm currently learning how to use Git and GitHub properly, so this mighhhht go through a series of unpretty versions haha... :')</p>
+<p>FAIR WARNING: This website is deeeefinitely not responsive enough and deeeeeefinitely not mobile-friendly. We workin' on it! Progress is slow due to many exhausting circumstances :')</p>
+
+<p>(Also I think I'm getting more comfortable with using Git and GitHub properly!)</p>
