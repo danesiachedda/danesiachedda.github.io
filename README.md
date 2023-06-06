@@ -1,5 +1,4 @@
 # danesiachedda.github.io
+## This is my personal/professional website, where I try to give you an idea of who I am as a person and a self-taught developer.
 
-<p>FAIR WARNING: This website is deeeefinitely not responsive enough and deeeeeefinitely not mobile-friendly. We workin' on it! Progress is slow due to many exhausting circumstances :')</p>
-
-<p>(Also I think I'm getting more comfortable with using Git and GitHub properly!)</p>
+_I'm still not sure what style I'd like to use for this website..._ But I at least made it readable for now! I think the aesthetics will come along later on haha.
