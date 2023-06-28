@@ -1,41 +1,112 @@
+<!---------------------------------------------------------------------------------------------------------
+    *Partially nspired by Lee Robinson and Alex Pates's websites as showcased in the following DEV post:
+        https://dev.to/scrimba/10-minimal-portfolio-examples-for-web-developers-who-arent-good-at-design-40gj
+
+    *Lee and Alex's current websites:
+        https://leerob.io/
+        https://alexjpate.com/
+----------------------------------------------------------------------------------------------------------->
+
 <!DOCTYPE html>
-<html lang="en">
+<html id="home-page" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danesia Chedda</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <nav>
         <div id="nav-bar">
-            <a href="index.html"><img id="nav-logo" src="images/icon-nav-danesia-noborder.png" alt="navigation bar logo"></a>
+            <a href="./index.html"><img id="nav-logo" src="./images/icon-nav-danesia-noborder-monochromatic.png" alt="navigation bar logo"></a>
             <ul id="nav-links-list">
-                <li><a class="nav-links" href="who-i-am.html">About</a></li>
-                <li><a class="nav-links" href="what-i-do.html">Projects</a></li>
-                <li><a class="nav-links" href="where-i-am.html">Contact</a></li>
+                <li><a class="nav-links" href="./about.html">ABOUT</a></li>
+                <li class="tooltip">
+                    <a class="nav-links" style="cursor: pointer;">BLOG</a>
+                    <span class="tooltiptext">Coming Soon!</span>
+                </li>
             </ul>
         </div>
     </nav>
 
     <main>
-        <div class="mini-browser"> <!-- Henceforth, "mb" refers to "mini-browser"-->
-            <h3 class="mb-title-bar">Welcome!<span class="mb-title-bar-deco">o o o</span></h3>
-            <div class="mb-content-container">
-                <div class="mb-content-info">
-                    <p>Hi! I'm Danesia (^o^)</p>
-                    <p>This is my personal / professional website, where I tell you about myself and showcase some of my work. I'm still putting things together, but hopefully I'll be all set by the end of April (2023)!</p>
+        <div class="page-content">
+            <section id="home-hero-intro">
+                <h1 class="hero-intro-heading">Hi, I'm Danesia and I like to DESIGN stuff!</h1>
+                <p>Graphic Designer? UX Professional? Front-End Developer dabbling with server-side technologies?? Minecraft Housing Architect!?!? To be honest... I'm still figuring it out! For all we know, I'm a unicorn! 🦄</p>
+                <p>What I <i>can</i> say for sure is that I enjoy bringing together the worlds of Arts and Technology. What I lack in skill, I make up for in excellent work ethic and creative vision! <i>Also many hours of online tutorials and much trial and error...</i></p>
+            </section>
+    
+            <section id="home-featured-work">
+                <h2>Featured Work</h2>
+                <div class="featured-grid">
+                    <div class="featured-grid-item">
+                        <a class="featured-grid-item-thumbnail-container" href="https://danesiachedda.github.io/The-Layout-Project/" target="_blank">
+                            <img src="./images/_thumbnail-layout-project.jpg" alt="">
+                        </a>
+                        <a class="featured-grid-item-label" href="https://danesiachedda.github.io/The-Layout-Project/" target="_blank"><h3>The Layout Project</h3></a>
+                        <p class="featured-grid-item-description">An ongoing practice project I started to help me improve my website layout skills! It's intended to be focused on HTML and CSS, but I also plan to add in JavaScript where I see potential for interactive features!</p>
+                    </div>
+
+                    <div class="featured-grid-item">
+                        <a class="featured-grid-item-thumbnail-container">
+                            <img src="./images/_thumbnail-coming-soon.png" alt="">
+                        </a>
+                        <a class="featured-grid-item-label"><h3>App Brewery Course Portfolio</h3></a>
+                        <p class="featured-grid-item-description">A compilation of practice and capstone projects made for Dr. Angela Yu's "Complete Web Developer" course - which I do on Udemy. Trying to make the projects more personal before uploading </p>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+                <a href="https://github.com/danesiachedda?tab=repositories">See all work on GitHub &#10230;</a>
+            </section>
+            
+            <hr>
+            <br>
+
+            <section id="home-activity-log">
+                <h2>Activity Log</h2>
+                <p>Here's what I've been up to (in June 2023)! <i>Hoping to eventually automate these updates.</i></p>
+                
+                <table class="activity-log-table">
+                    <tr>
+                        <td>&#9203</td>
+                        <td>Planning my App Brewery course portfolio</td>
+                    </tr>
+                    <tr>
+                        <td>&#9203</td>
+                        <td>Learning to code EJS templates</td>
+                    </tr>
+                    <tr>
+                        <td>&#9203</td>
+                        <td>Setting up blog (to pair with personal website)</td>
+                    </tr>
+                    <tr>
+                        <td>&#9989</td>
+                        <td>Refreshing personal website for June 2023</td>
+                    </tr>
+                </table>
+                <br>
+                <a class="tooltip" style="cursor: pointer;">
+                    Check out my blog for more &#10230;
+                    <span class="tooltiptext">Coming Soon!</span>
+                </a>
+            </section>
+        </div> 
     </main>
 
     <footer id="footer">
+        
         <p>© 2023, Danesia Chedda</p>
-        <a href="https://www.linkedin.com/in/danesia-chedda-575209223/"><img class="social-icons" src="images/icon-linkedin.svg"></a> <a href="https://www.instagram.com/danesiachedda"><img class="social-icons" src="images/icon-instagram.svg"></a> <a href="https://github.com/danesiachedda"><img class="social-icons" src="images/icon-github.svg"></a>
+        <a class="copytext-tooltip"><img id="copytext-button" class="social-icons" src="./images/icon-discord.svg" onclick="copyToClipboard()" onmouseout="outFunc()"><span class="tooltiptext" id="copytext-prompt">Copy Discord username</span></a> <a href="https://www.linkedin.com/in/danesiachedda/" target="_blank"><img class="social-icons" src="./images/icon-linkedin.svg"></a> <a href="https://github.com/danesiachedda" target="_blank"><img class="social-icons" src="./images/icon-github.svg"></a>
     </footer>
 
-    <script src="js/main.js"></script>
+    
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

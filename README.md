@@ -1,4 +1,4 @@
 # danesiachedda.github.io
-## This is my personal/professional website, where I try to give you an idea of who I am as a person and a self-taught developer.
+## This is my personal/professional website, where I try to give you an idea of who I am as a person and a self-taught developer!
 
-_I'm still not sure what style I'd like to use for this website..._ But I at least made it readable for now! I think the aesthetics will come along later on haha.
+I'm also working on a blog for the website! There, I hope to share more details about my coding projects and other things that I do in my daily life - like language learning, visual arts, and gaming. Progress is slow, but I'm trying my best!
