@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color:#5b1921;
+    color:#172368;
 }
 
 hr {
@@ -44,14 +44,14 @@ table {
 
 nav {
     padding: 48px 0 40px;
-    background-color: #76232f;
+    background-color: #aea664;
 }
 
 #nav-bar {
     display: flex;
     align-items: center;
     margin: 0 0 0 auto;
-    background-color: #76232f;
+    background-color: #aea664;
     color: white;
 }
 
@@ -60,7 +60,7 @@ nav {
     position: absolute;
     top: 15px;
     left: 370px;
-    border: 7px solid #76232f;
+    border: 7px solid #aea664;
     border-radius: 50%;
 }
 
@@ -85,7 +85,7 @@ nav {
     padding: 1.5em;
     text-align: center;
     line-height: 1.5;
-    background-color: #76232f;
+    background-color: #aea664;
     color: #fff;
 }
 
@@ -113,7 +113,7 @@ nav {
     .tooltip .tooltiptext {
         visibility: hidden;
         width: 120px;
-        background-color: #390d12;
+        background-color: #172368;
         color: #fff;
         text-align: center;
         padding: 5px 0;
@@ -149,7 +149,7 @@ nav {
 .copytext-tooltip .tooltiptext {
     visibility: hidden;
     width: max-content;
-    background-color: #390d12;
+    background-color: #172368;
     color: #fff;
     text-align: center;
     padding: 5px;
@@ -182,13 +182,21 @@ nav {
 }
     #home-hero-intro p {
         text-align: justify;
+        margin: 20px 0 0 0; 
     }
     .hero-intro-heading {
-        justify-self: center;
         margin: 0;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
+
+.future-note {
+    padding: 10px 30px;
+    color: #172368;
+    background-color: #dadef9;
+    border: 2px solid #172368;
+    border-radius: 8px;
+}
 
 .featured-grid {
     width: 100%;
@@ -249,14 +257,14 @@ nav {
         display: grid;
         grid-template-columns: 100%;
         justify-items: center;
-        background-color: #76232f;
+        background-color: #aea664;
         color: #f2f2f2;
     }
 
     #nav-logo {
         position: static;
         max-width: 170px;
-        border: 7px solid #5b1921;
+        border: 7px solid #6a6111;
     }
     
     #nav-links-list {
@@ -304,7 +312,7 @@ nav {
         display: grid;
         grid-template-columns: 100%;
         justify-items: center;
-        background-color: #76232f;
+        background-color: #aea664;
         color: #f2f2f2;
     }
 
@@ -324,7 +332,7 @@ nav {
         margin: 1em 0 0;
             padding: 0.6em;
             border-radius: 8px;
-            background-color: #5b1921;
+            background-color: #6a6111;
         /* [PALE ALTERNATIVE] background-color: #964f58; */
     }
 }
